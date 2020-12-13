@@ -13,7 +13,7 @@ import (
 
 const (
 	TagName    = `meta`
-	htmlRegion = `head`
+	htmlRegion = `html`
 	htmlTag    = `meta`
 )
 
