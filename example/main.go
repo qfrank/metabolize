@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	m "github.com/keighl/metabolize"
+	m "metabolize"
 	"net/http"
 	"net/url"
 )
@@ -17,7 +17,7 @@ type MetaData struct {
 }
 
 func main() {
-	res, _ := http.Get("https://www.youtube.com/watch?v=FzRH3iTQPrk")
+	res, _ := http.Get("https://www.youtube.com/watch?v=nUyHGMHBoLI&list=RDnUyHGMHBoLI&start_radio=1&ab_channel=HI%2aSessions")
 
 	data := new(MetaData)
 
